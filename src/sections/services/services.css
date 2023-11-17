@@ -1,0 +1,53 @@
+.services__container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    align-self: center;
+    /* margin: 0 30px; */
+ }
+ .services__item{
+    background: var(--color-light);
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+   .services__item:hover{
+    background: var(--color-white);
+    border-color: var(--color-light);
+   }
+  .service__icon{
+    color: var(--color-white);
+    background: var(--color-primary);
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+   }
+ .services__item:hover .service__icon{
+    background: var(--color-light);
+    color: var(--color-primary);
+   
+  }
+  .service__card-sec{
+    margin-left: 10px;
+  }
+
+  .service__description{
+    color: var(--color-black);
+  }
+
+  /* MEDIA QUERIES (tablets) */
+@media screen and (max-width:1024px) {
+    .services__container{
+        grid-template-columns: repeat(2,2fr);
+    }
+}
+  /* MEDIA QUERIES (phone) */
+@media screen and (max-width:768px) {
+    .services__container{
+        grid-template-columns: repeat(1,4fr);
+    }
+}

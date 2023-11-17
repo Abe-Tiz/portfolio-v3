@@ -1,0 +1,119 @@
+.testimonial__lists{
+    display: flex;
+    /* padding: 10px; */
+}
+
+.testimonial_item{
+    background: var(--color-light);
+    width: 300px;
+    margin-top: 3rem;
+}
+.testimonial_item:hover{
+    background: transparent;
+    border: 4px solid var(--color-light);
+   
+}
+
+.testimonial_image{
+  display: flex;
+  justify-content: flex-start;
+  align-content: first baseline;
+
+}
+
+.testimonial_content-topic{
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  margin-left: 10px;
+}
+.testimonial__name{
+  font-weight: bold;
+}
+  
+.testimonial__description{
+  color: var(--color-black);
+}
+ 
+
+:root {
+  --primary: #00EAFF;
+ }
+
+ 
+.swiper_container {
+  height: 250px;
+  width:var(--container-width-lg);
+  padding: 10px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ 
+}
+ 
+.swiper-slide img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+ }
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.slider-controler {
+  position: relative;
+  bottom: 15px;
+  background: var(--color-light);
+  margin-left: 18rem;
+}
+ 
+.swiper-pagination {
+  position: relative;
+  width: 15rem !important;
+  bottom: 1rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: var(--primary);
+}
+
+/*  MEDIA QUERY FOR (tablet)*/
+@media screen and (max-width: 1024px) {
+  .swiper_container {
+    height: 300px;
+    /* width: 300px; */
+    /* display: grid; */
+   }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial_item{
+        flex-direction: column;
+        margin-left: 2.5rem;
+    }
+  .swiper_container {
+    height: 250px;
+    width: 400px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+  }
+  .slider-controler {
+  margin-left: 3rem;
+} 
+}
+
+/*  MEDIA QUERY FOR (phone)*/
+@media screen and (max-width: 400px) {
+  .swiper_container {
+    height: 200px;
+    width: 300px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(1,1fr); */
+  }
+  
+}

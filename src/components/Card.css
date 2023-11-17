@@ -1,0 +1,51 @@
+.card{
+    background: var(--color-white);
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-1);
+    transition: var(--transition);
+     /* color: var(--color-white); */
+}
+
+.card:hover{
+    background: transparent;
+    border-color: var(--color-white);
+    transform: translateY(-0.5rem);
+    /* color: var(--color-white); */
+}
+
+.card.h5{
+    color: var(--color-light);
+}
+
+.card.light{
+    background: var(--color-light);
+}
+
+.card.light:hover{
+    background: transparent;
+    border-color: var(--color-light);
+
+}
+
+/* MEDIA QUERIES (phone)*/
+@media screen and (max-width:600px) {
+    .card{
+        padding: 1.2rem;
+    }
+}
+
+.faq{
+    background: var(--color-white);
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-1);
+    transition: var(--transition);
+}
+
+/* .footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 12px; 
+} */

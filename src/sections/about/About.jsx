@@ -1,5 +1,5 @@
 import './about.css'
-import aboutImage from '../../assets/header/profile-1.jpg'
+import aboutImage from '../../assets/header/imgcv.jpg'
 import cv from '../../assets/Abebe.pdf'
 import { BiSolidDownload } from 'react-icons/bi'
 import data from './data'
@@ -50,20 +50,17 @@ const About = () => {
             ))}
           </div>
           <p data-aos="fade-up" data-aos-duration="3000">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad culpa qui officia deserunt mollit anim id est laborum.
+            I am software developer specialized in web technologies like
+            ReactJs, React Native, javascript, HTML5, CSS3, SQL, java,
+            bootstrap5, C#, NodeJs,Express and MongoDb.I am open minded to adopt
+            new technologies to fulfill business needs. I enjoy coding
           </p>
           <p data-aos="fade-up" data-aos-duration="3000">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad culpa qui officia deserunt mollit anim id est laborum.
+            I am an Information System Student in Addis Ababa University, and am
+            constantly learning and staying up-to-date with the latest trends
+            and technologies in my field.
           </p>
-          <a
-            href={cv}
-            download
-            className="btn primary"
-          >
+          <a href={cv} download className="btn primary">
             Download CV <BiSolidDownload />
           </a>
         </div>

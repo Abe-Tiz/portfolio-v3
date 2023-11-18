@@ -5,6 +5,7 @@ import Card from '../../components/Card';
 import data from './data';
 import Front from './Front';
 import Back from './Backend';
+import App from './App';
 import './portfolio.css'
 
 const Portfolio = () => { 
@@ -28,10 +29,6 @@ const Portfolio = () => {
     handleBtnPressed();
      AOS.init({ duration: 3000 });
   }, []);
-
-    // useEffect(() => {
-    //   AOS.init({ duration: 3000 });
-    // }, []);
   
 
   if (isPressed === 'All') {
@@ -110,6 +107,40 @@ const Portfolio = () => {
         </div>
       </Card>
     ));
+   
+  } else if (isPressed === 'app') {
+    _frontPortfolio = App.map((item) => (
+      <Card
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        classsName="single__portfolio"
+        key={item.id}
+      >
+        <div className="portfolio__img">
+          <img src={item.image} alt="myproject- images" />
+        </div>
+        <span>{item.title}</span>
+        <small>{item.desc}</small>
+        <div className="portfolio_cta">
+          <a
+            className="btn light btn_portfolio"
+            href={item.demo}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Demo
+          </a>
+          <a
+            className="btn primary"
+            href={item.prolink}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Github
+          </a>
+        </div>
+      </Card>
+    ));
   } else {
     _backPortfolio = Back.map((item) => (
       <Card  data-aos="fade-up"
@@ -145,15 +176,18 @@ const Portfolio = () => {
 
     return (
       <section id="portfolio">
-        <h2  data-aos="fade-up"
-            data-aos-duration="3000">portfolio</h2>
-        <p  data-aos="fade-up"
-            data-aos-duration="3000" className='portfolio__description'>
+        <h2 data-aos="fade-up" data-aos-duration="3000">
+          portfolio
+        </h2>
+        <p
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="portfolio__description"
+        >
           Check Out some of the projects i recently worked on for my clients.
           use the button s to toggle the different categories.
         </p>
-        <div  data-aos="fade-up"
-            data-aos-duration="3000" className=" container">
+        <div data-aos="fade-up" data-aos-duration="3000" className=" container">
           <div className="portfolio__items">
             <button
               className={`btn ${
@@ -173,11 +207,19 @@ const Portfolio = () => {
             </button>
             <button
               className={`btn ${
-                isPressed === "back" ? "active" : "btnPortfolio"
+                isPressed === "fullstack" ? "active" : "btnPortfolio"
               }`}
-              onClick={() => handleBtnPressed("back")}
+              onClick={() => handleBtnPressed("fullstack")}
             >
-              Backend
+              Fullstack
+            </button>
+            <button
+              className={`btn ${
+                isPressed === "app" ? "active" : "btnPortfolio"
+              }`}
+              onClick={() => handleBtnPressed("app")}
+            >
+              App
             </button>
           </div>
 

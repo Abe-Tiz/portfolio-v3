@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import data from "./data";
-import logo from "../../assets/logo/logo.png";
+import logo from "../../assets/header/imgcv.jpg";
 import { IoIosColorPalette } from "react-icons/io";
 import {FaBars} from 'react-icons/fa'
 import { AiFillCloseCircle } from "react-icons/ai";
 import Theme from "../../themes/Theme";
+import { Link } from "react-router-dom";
 
 const NavBar = ({
   setPrimaryTheme,
@@ -64,7 +65,7 @@ const NavBar = ({
         >
           {data.map((data) => (
             <li key={data.id}>
-              <aL href={data.link}>{data.title}</aL>
+              <a href={data.link}>{data.title}</a>
             </li>
           ))}
         </ul>

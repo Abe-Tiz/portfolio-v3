@@ -38,7 +38,7 @@ const Theme = ({ setPrimaryTheme, theme, setBackgroundTheme }) => {
               ))}
             </div>
           </div>
-          <div>
+          {/* <div>
             <h5 className="Theme__text">Background Color</h5>
             <div className="theme__background">
               {BackColors.map((color, index) => (
@@ -49,7 +49,7 @@ const Theme = ({ setPrimaryTheme, theme, setBackgroundTheme }) => {
                 />
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

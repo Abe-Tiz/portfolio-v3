@@ -1,6 +1,6 @@
 import './header.css'
 import data from './data'
-import profile from "../../assets/header/profile-1.jpg";
+import profile from "../../assets/header/imgcv.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -22,29 +22,22 @@ const Header = () => {
           <img src={profile} alt="profile" />
         </div>
         <h3 data-aos="fade-up" data-aos-duration="3000">
-          Simegnew Tizazu
+          Abebe Tizazu
         </h3>
         <p data-aos="fade-up" data-aos-duration="3000">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          culpa qui officia deserunt mollit anim id est laborum.
+          I am an Information System Student in Addis Ababa University, and am
+          constantly learning and staying up-to-date with the latest trends and
+          technologies in my field.
         </p>
         <div
           data-aos="fade-up"
           data-aos-duration="3000"
           className="header__cta"
         >
-          <a
-            href="#contact"
-            className="btn primary"
-          >
+          <a href="#contact" className="btn primary">
             Let's Talk
           </a>
-          <a
-            
-            href="#portfolio"
-            className="btn light"
-          >
+          <a href="#portfolio" className="btn light">
             My Work
           </a>
         </div>

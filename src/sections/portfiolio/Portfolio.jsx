@@ -48,12 +48,8 @@ const Portfolio = () => {
         >
           <img src={item.image} alt="myproject- images" />
         </div>
-        <span data-aos="fade-up" data-aos-duration="3000">
-          {item.title}
-        </span>
-        <small data-aos="fade-up" data-aos-duration="3000">
-          {item.desc}
-        </small>
+          <h5>{item.title}</h5>
+          <small>{item.desc}</small>
         <div
           data-aos="fade-up"
           data-aos-duration="3000"
@@ -80,12 +76,16 @@ const Portfolio = () => {
     ));
   } else if (isPressed === 'front') {
     _frontPortfolio = Front.map((item) => (
-      <Card  data-aos="fade-up"
-            data-aos-duration="3000" classsName="single__portfolio" key={item.id}>
+      <Card
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        classsName="single__portfolio"
+        key={item.id}
+      >
         <div className="portfolio__img">
           <img src={item.image} alt="myproject- images" />
         </div>
-        <span>{item.title}</span>
+        <h5>{item.title}</h5>
         <small>{item.desc}</small>
         <div className="portfolio_cta">
           <a
@@ -96,7 +96,7 @@ const Portfolio = () => {
           >
             Demo
           </a>
-          <a 
+          <a
             className="btn primary"
             href={item.prolink}
             target="_blank"
@@ -119,7 +119,7 @@ const Portfolio = () => {
         <div className="portfolio__img">
           <img src={item.image} alt="myproject- images" />
         </div>
-        <span>{item.title}</span>
+        <h5>{item.title}</h5>
         <small>{item.desc}</small>
         <div className="portfolio_cta">
           <a
@@ -143,12 +143,16 @@ const Portfolio = () => {
     ));
   } else {
     _backPortfolio = Back.map((item) => (
-      <Card  data-aos="fade-up"
-            data-aos-duration="3000" classsName="single__portfolio" key={item.id}>
+      <Card
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        classsName="single__portfolio"
+        key={item.id}
+      >
         <div className="portfolio__img">
           <img src={item.image} alt="myproject- images" />
         </div>
-        <span>{item.title}</span>
+        <h5>{item.title}</h5>
         <small>{item.desc}</small>
         <div className="portfolio_cta">
           <a
@@ -160,8 +164,8 @@ const Portfolio = () => {
             Demo
           </a>
           <a
-            className="btn primary" 
-            href={item.prolink} 
+            className="btn primary"
+            href={item.prolink}
             target="_blank"
             rel="noreferrer noopener"
           >

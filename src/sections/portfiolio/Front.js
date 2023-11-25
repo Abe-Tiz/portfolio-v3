@@ -1,8 +1,7 @@
 const Front = [
   {
     id: 1,
-    image:
-      "https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg",
+    image: "/images/reciep3.png",
     title: "Food Reciep App",
     desc: "that makes it easy to discover and save your favorite recipes",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -10,8 +9,7 @@ const Front = [
   },
   {
     id: 2,
-    image:
-      "https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg",
+    image: "/images/resweb1.png",
     title: "Responsive Website",
     desc: "that showcases my skills and work experience and other projects.",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -19,8 +17,7 @@ const Front = [
   },
   {
     id: 3,
-    image:
-      "https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg",
+    image: "/images/pro-1.png",
     title: "ToDo App",
     desc: "that allows users to organize their tasks in a simple and intuitive way",
     demo: "https://abiyetodoapp.netlify.app/",

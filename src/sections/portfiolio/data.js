@@ -2,17 +2,15 @@
 const data = [
   {
     id: 1,
-    image:
-      "https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg",
-    title: "ToDo App",
-    desc: "that allows users to organize their tasks in a simple and intuitive way",
+    image: "/images/reciep3.png",
+    title: "Food Reciep App",
+    desc: "that makes it easy to discover and save your favorite recipes",
     demo: "https://abiyetodoapp.netlify.app/",
-    prolink: "https://github.com/Abe-Tiz/todo_app",
+    prolink: "https://github.com/Abe-Tiz/Food_Recip_app_reactjs",
   },
   {
     id: 2,
-    image:
-      "https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg",
+    image: "/images/resweb1.png",
     title: "Responsive Website",
     desc: "that showcases my skills and work experience and other projects.",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -20,16 +18,15 @@ const data = [
   },
   {
     id: 3,
-    image:
-      "https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg",
-    title: "Food Reciep App",
-    desc: "that makes it easy to discover and save your favorite recipes",
+    image: "/images/pro-1.png",
+    title: "ToDo App",
+    desc: "that allows users to organize their tasks in a simple and intuitive way",
     demo: "https://abiyetodoapp.netlify.app/",
-    prolink: "https://github.com/Abe-Tiz/Food_Recip_app_reactjs",
+    prolink: "https://github.com/Abe-Tiz/todo_app",
   },
   {
     id: 4,
-    image: "https://ddi-dev.com/uploads/backend-is.png",
+    image: "/images/chat_img.jpg",
     title: "chat app",
     desc: "This is mobile application is developed by using react native",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -37,7 +34,7 @@ const data = [
   },
   {
     id: 5,
-    image: "https://ddi-dev.com/uploads/backend-is.png",
+    image: "/images/product_img.jpg",
     title: " product managment",
     desc: "This is full stack product management web application.",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -45,7 +42,7 @@ const data = [
   },
   {
     id: 6,
-    image: "https://ddi-dev.com/uploads/backend-is.png",
+    image: "/images/login_regiter.png",
     title: "Login and Registration",
     desc: " This is a full stack authentication web application using mongodb ",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -53,7 +50,7 @@ const data = [
   },
   {
     id: 7,
-    image: "https://ddi-dev.com/uploads/backend-is.png",
+    image: "/images/crud_opration.png",
     title: "Crud Opration",
     desc: " This is a full stack Crud application using mongodb and nextjs ",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -61,7 +58,7 @@ const data = [
   },
   {
     id: 8,
-    image: "https://ddi-dev.com/uploads/backend-is.png",
+    image: "/images/blog_img.jpg",
     title: "Blog website",
     desc: " This is my first blog websit and a Mernstack  application",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -77,7 +74,7 @@ const data = [
   },
   {
     id: 10,
-    image: "/images/landing-page.png",
+    image: "/images/news_img.png",
     title: "News App ",
     desc: " This is a react native news application",
     demo: "https://abiyetodoapp.netlify.app/",

@@ -1,7 +1,7 @@
 const Backend = [
   {
     id: 1,
-    image: "https://ddi-dev.com/uploads/backend-is.png",
+    image: "/images/product_img.jpg",
     title: " product managment",
     desc: "This is full stack product management web application.",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -9,7 +9,7 @@ const Backend = [
   },
   {
     id: 2,
-    image: "https://ddi-dev.com/uploads/backend-is.png",
+    image: "/images/login_regiter.png",
     title: "Login and Registration",
     desc: " This is a full stack authentication web application using mongodb ",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -17,7 +17,7 @@ const Backend = [
   },
   {
     id: 3,
-    image: "https://ddi-dev.com/uploads/backend-is.png",
+    image: "/images/crud_opration.png",
     title: "Crud Opration",
     desc: " This is a full stack Crud application using mongodb and nextjs ",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -25,7 +25,7 @@ const Backend = [
   },
   {
     id: 4,
-    image: "https://ddi-dev.com/uploads/backend-is.png",
+    image: "/images/blog_img.jpg",
     title: "Blog website",
     desc: " This is my first blog websit and a Mernstack  application",
     demo: "https://abiyetodoapp.netlify.app/",

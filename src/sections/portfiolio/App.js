@@ -1,7 +1,7 @@
-const App = [
+ const App = [
   {
     id: 1,
-    image: "/images/landing-page.png",
+    image: "/images/news_img.png",
     title: "News App ",
     desc: " This is a react native news application",
     demo: "https://abiyetodoapp.netlify.app/",
@@ -9,7 +9,7 @@ const App = [
   },
   {
     id: 2,
-    image: "https://ddi-dev.com/uploads/backend-is.png",
+    image: "/images/chat_img.jpg",
     title: "chat app",
     desc: "This is mobile application is developed by using react native",
     demo: "https://abiyetodoapp.netlify.app/",

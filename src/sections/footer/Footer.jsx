@@ -54,7 +54,7 @@ const Footer = () => {
           data-aos-duration="3000"
           className="footer__right"
         >
-          2021 - {new Date().getFullYear()}, All rights Reserved To Simegnew
+          202 - {new Date().getFullYear()}, All rights Reserved To Abebe
           Tizazu.
         </p>
       </div>

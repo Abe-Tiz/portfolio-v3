@@ -10,6 +10,10 @@
     margin-top: 2rem;
     margin-bottom: 4rem;
     color: var(--color-black);
+    /* border-left:1rem solid var(--color-light); */
+    border-right:2rem solid var(--color-light);
+    border-radius: 3rem;
+          /* border: 1rem solid var(--color-white); */
 }
 
  .header__profile{

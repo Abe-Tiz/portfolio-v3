@@ -21,6 +21,7 @@ const Header = () => {
         >
           <img src={profile} alt="profile" />
         </div>
+        
         <h3 data-aos="fade-up" data-aos-duration="3000">
           Abebe Tizazu
         </h3>

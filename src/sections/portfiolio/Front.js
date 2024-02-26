@@ -1,11 +1,11 @@
 const Front = [
   {
     id: 1,
-    image: "/images/reciep3.png",
-    title: "Food Reciep App",
-    desc: "that makes it easy to discover and save your favorite recipes",
-    demo: "https://abiyetodoapp.netlify.app/",
-    prolink: "https://github.com/Abe-Tiz/Food_Recip_app_reactjs",
+    image: "/images/weather_img.PNG",
+    title: "Weather App",
+    desc: "This app is using react js with Vite and using tailwind css for styling thies app and using openweather api for fetching weather data. and this app have two options for fetching weather data by request your current location and  allow the manual entry of the city to find wether data. ",
+    demo: "https://wezerapp.netlify.app/",
+    prolink: "https://github.com/Abe-Tiz/PRODIGY_WD_05",
   },
   {
     id: 2,

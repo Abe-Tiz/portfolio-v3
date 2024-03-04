@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import data from "./data";
-import logo from "../../assets/header/Abe_Logo.png";
+import logo from "../../assets/header/abiye_logo1.png";
 import { IoIosColorPalette } from "react-icons/io";
 import {FaBars} from 'react-icons/fa'
 import { AiFillCloseCircle } from "react-icons/ai";
@@ -45,7 +45,7 @@ const NavBar = ({
     <nav>
       <div className="container nav__container">
         <a href="/">
-          <img src={logo} alt="logo" className="nav__logo" />
+          <img src={logo} alt="logo" className="nav__logo " />
           {/* Abebe Tizazu */}
         </a>
         <div className="toggler__icons">

@@ -1,6 +1,6 @@
 import './about.css'
 import aboutImage from '../../assets/header/imgcv.jpg'
-import cv from '../../assets/Abebe.pdf'
+import cv from '../../assets/abebe.pdf'
 import { BiSolidDownload } from 'react-icons/bi'
 import data from './data'
 import Card from '../../components/Card'

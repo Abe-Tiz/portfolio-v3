@@ -80,7 +80,7 @@ button{
 }
 
 /* MEDIA QUERY FOR (phone)   */
-@media screen and (max-width:768px){
+@media screen and (max-width:600px){
     .portfolio__items-1{
         /* display: grid; */
         grid-template-columns: repeat(1,1fr);

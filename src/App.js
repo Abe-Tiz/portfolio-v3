@@ -7,8 +7,9 @@ import Header from "./sections/header/Header";
 import NavBar from "./sections/navBar/NavBar";
 import Portfolio from "./sections/portfiolio/Portfolio";
 import Services from "./sections/services/Services";
-import Testimonials from "./sections/testimonials/Testimonials";
+// import Testimonials from "./sections/testimonials/Testimonials";
 import "./index.css";
+// import Contact from './sections/contact/contact1';
  
 function App() {
 
@@ -42,8 +43,6 @@ function App() {
       <About />
       <Services />
       <Portfolio />
-      {/* <Testimonials /> */}
-      {/* <Faq /> */}
       <Contact />
       <Footer />
     </>

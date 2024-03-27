@@ -80,6 +80,14 @@ const data = [
     demo: "https://abiyetodoapp.netlify.app/",
     prolink: "https://github.com/Abe-Tiz/News-App",
   },
+  {
+    id: 11,
+    image: "/images/pro_img-4.PNG",
+    title: "Banking website",
+    desc: "This website is built using React.js, a JavaScript library for building user interfaces. React.js allows for the creation of dynamic and interactive web pages. Styled Components, a library for styling React components with CSS, is used to ensure consistent and maintainable styling throughout the website.",
+    demo: "https://abiyetodoapp.netlify.app/",
+    prolink: "https://github.com/Abe-Tiz/my-reactjs-website-",
+  },
 ];
 
 export default data;
